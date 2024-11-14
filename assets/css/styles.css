@@ -18,3 +18,33 @@
   font-family: "kalameh-number";
   src: url("../fonts/number/KalamehWeb\(FaNum\)-Regular.woff") format("woff");
 }
+
+/* ===== CSS VARIABLES ===== */
+:root {
+  /* ===== Colors ===== */
+  --body-bg-color: #07101d;
+  --first-color: #ff3c00;
+  /* ===== Font and typography ===== */
+  --body-font: "kalameh", sans-serif;
+}
+
+/* ===== base ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--body-font);
+  background-color: var(--body-bg-color);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+input {
+  border: none;
+  outline: none;
+}
