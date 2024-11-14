@@ -269,3 +269,21 @@ header::after {
   background-color: rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 150px 0 rgba(255, 255, 255, 0.6);
 }
+/* ===== footer section ===== */
+.footer {
+  background-color: #091028;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+.social-media-items:hover {
+  background-image: linear-gradient(to right, #7011ad, #bc0505, #fc630f);
+}
+.footer-shape {
+  width: 615px;
+  height: 584px;
+  top: 0;
+  right: -12rem;
+  background-image: radial-gradient(62.37% 62.37% at 50% 50%, rgba(8, 52, 1164, 0.2) 21.07%, rgba(7, 15, 28, 0) 100%);
+  filter: blur(50px);
+  opacity: 0.6;
+  z-index: -100;
+}
