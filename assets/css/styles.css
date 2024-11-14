@@ -123,3 +123,53 @@ header::after {
 .section-padding {
   padding-block: 7rem 5rem;
 }
+
+/* ===== wallet section ===== */
+.wallet-box {
+  position: relative;
+  padding: 1px;
+  height: 188px;
+}
+.wallet-box::after {
+  content: "";
+  width: 42px;
+  height: 22px;
+  background-color: #07101d;
+  position: absolute;
+  bottom: -3px;
+  right: -13px;
+  transform: rotate(-45deg);
+}
+.wallet-box-bg {
+  background-color: #161e2a;
+}
+.wallet-box-orange {
+  background-image: linear-gradient(to right bottom, #07101d, #fc280c);
+}
+.wallet-box-yellow {
+  background-image: linear-gradient(to right bottom, #07101d, #ffbb0d);
+}
+.wallet-box-blue {
+  background-image: linear-gradient(to right bottom, #07101d, #00d1ff);
+}
+.wallet-box-pink {
+  background-image: linear-gradient(to right bottom, #07101d, #fe007a);
+}
+.wallet-box-purple {
+  background-image: linear-gradient(to right bottom, #07101d, #760aff);
+}
+.border-top-orange::after {
+  border-top: 1px solid #fc630f;
+}
+.border-top-yellow::after {
+  border-top: 1px solid #ffbb0d;
+}
+.border-top-blue::after {
+  border-top: 1px solid #00d1ff;
+}
+.border-top-pink::after {
+  border-top: 1px solid #fe007a;
+}
+.border-top-purple::after {
+  border-top: 1px solid #760aff;
+}
