@@ -241,3 +241,31 @@ header::after {
   opacity: 0.6;
   z-index: -1000;
 }
+/* ===== news letter section ===== */
+.news-letter-card::before {
+  content: "";
+  width: 980px;
+  height: 726px;
+  background-image: url("../images/path-left.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.news-letter-card::after {
+  content: "";
+  width: 980px;
+  height: 726px;
+  background-image: url("../images/path-right.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -32rem;
+  bottom: -27rem;
+}
+.news-letter-bg {
+  background-image: linear-gradient(90deg, #a50e86 0.16%, #c10b70 24.02%, #e83947 38.73%, #df330d 55.88%, #c55212 81.05%, #d37506 100%);
+}
+.news-letter-cover {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 150px 0 rgba(255, 255, 255, 0.6);
+}
