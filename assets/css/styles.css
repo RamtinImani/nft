@@ -216,3 +216,28 @@ header::after {
   border: 1px solid #ff1f00;
   background-image: linear-gradient(107deg, rgba(255, 31, 0, 0.1), rgba(255, 255, 255, 0.1));
 }
+/* ===== trends section ===== */
+.trends-padding-top {
+  padding-top: 22rem;
+}
+.trends-card-padding-top {
+  padding-top: 4.5rem !important;
+}
+.trends-image-position {
+  top: -18rem;
+  left: 0;
+  right: 0;
+}
+.trends-row-gap {
+  row-gap: 20rem;
+}
+.trends-shape {
+  width: 950px;
+  height: 990px;
+  bottom: 0;
+  right: -20rem;
+  background-image: radial-gradient(62.37% 62.37% at 50% 50%, rgba(189, 9, 95, 0.13) 37.62%, rgba(7, 15, 28, 0) 100%);
+  filter: blur(50px);
+  opacity: 0.6;
+  z-index: -1000;
+}
