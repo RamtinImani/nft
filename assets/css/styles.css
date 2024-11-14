@@ -48,3 +48,78 @@ input {
   border: none;
   outline: none;
 }
+
+/* ===== header ===== */
+header::before {
+  content: "";
+  width: 904px;
+  height: 879px;
+  background-image: radial-gradient(#3d0d58 38%, #070f1c 0%);
+  position: absolute;
+  filter: blur(70px);
+  opacity: 0.4;
+  top: -275px;
+  right: -275px;
+  z-index: -100;
+}
+header::after {
+  content: "";
+  width: 500px;
+  height: 500px;
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+/* ===== helper classes ===== */
+.first-color {
+  color: var(--first-color);
+}
+.bg-first {
+  background-color: var(--first-color);
+}
+.border-first {
+  border-color: var(--first-color) !important;
+}
+.main-bg-gradient {
+  background-image: linear-gradient(to right, #7011ad, #bc0505, #fc630f);
+}
+.icon-size {
+  font-size: 26px;
+}
+.icon-size-lg {
+  font-size: 32px;
+}
+.icon-size-xl {
+  font-size: 36px;
+}
+.header-font-size {
+  font-size: 4rem;
+}
+.blur-filter {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  backdrop-filter: blur(4px);
+}
+.users-group-position {
+  bottom: 4rem;
+  right: 5rem;
+}
+.path-position {
+  top: 4rem;
+  right: 5rem;
+}
+.num-font {
+  font-family: "kalameh-number";
+}
+.section-title-size {
+  width: 75px;
+  height: 75px;
+}
+.section-padding {
+  padding-block: 7rem 5rem;
+}
