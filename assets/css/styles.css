@@ -2,7 +2,7 @@
 @font-face {
   font-family: "kalameh";
   font-weight: normal;
-  src: url("../fonts/_Woff2/KalamehWeb-Regular.woff2") format("woff2");
+  src: url("/assets/fonts/_Woff/KalamehWeb-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "kalameh-bold";
