@@ -13,4 +13,7 @@ Feel free to check out the code and explore how Bootstrap was used to create thi
 
 ### 🪄 `Made With 🤍`
 ---
+## 🚀 Live Demo:
+🔗 [View Demo](https://ramtinimani.github.io/nft/)
+## 📸 Preview Image:
 ![preview image](/preview.png)
