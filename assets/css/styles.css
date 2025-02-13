@@ -2,7 +2,7 @@
 @font-face {
   font-family: "kalameh";
   font-weight: normal;
-  src: url("../fonts/_Woff/KalamehWeb-Regular.woff") format("woff");
+  src: url("../fonts/_Woff2/KalamehWeb-Regular.woff2") format("woff2");
 }
 @font-face {
   font-family: "kalameh-bold";
@@ -194,7 +194,11 @@ header::after {
   height: 990px;
   bottom: -15rem;
   left: 0;
-  background-image: radial-gradient(62.37% 62.37% at 50% 50%, rgba(8, 164, 117, 0.1) 28.57%, rgba(7, 15, 28, 0) 100%);
+  background-image: radial-gradient(
+    62.37% 62.37% at 50% 50%,
+    rgba(8, 164, 117, 0.1) 28.57%,
+    rgba(7, 15, 28, 0) 100%
+  );
   filter: blur(50px);
   opacity: 0.6;
   z-index: -1000;
@@ -236,7 +240,11 @@ header::after {
   height: 990px;
   bottom: 0;
   right: -20rem;
-  background-image: radial-gradient(62.37% 62.37% at 50% 50%, rgba(189, 9, 95, 0.13) 37.62%, rgba(7, 15, 28, 0) 100%);
+  background-image: radial-gradient(
+    62.37% 62.37% at 50% 50%,
+    rgba(189, 9, 95, 0.13) 37.62%,
+    rgba(7, 15, 28, 0) 100%
+  );
   filter: blur(50px);
   opacity: 0.6;
   z-index: -1000;
@@ -263,7 +271,15 @@ header::after {
   bottom: -27rem;
 }
 .news-letter-bg {
-  background-image: linear-gradient(90deg, #a50e86 0.16%, #c10b70 24.02%, #e83947 38.73%, #df330d 55.88%, #c55212 81.05%, #d37506 100%);
+  background-image: linear-gradient(
+    90deg,
+    #a50e86 0.16%,
+    #c10b70 24.02%,
+    #e83947 38.73%,
+    #df330d 55.88%,
+    #c55212 81.05%,
+    #d37506 100%
+  );
 }
 .news-letter-cover {
   background-color: rgba(255, 255, 255, 0.1);
@@ -282,7 +298,11 @@ header::after {
   height: 584px;
   top: 0;
   right: -12rem;
-  background-image: radial-gradient(62.37% 62.37% at 50% 50%, rgba(8, 52, 1164, 0.2) 21.07%, rgba(7, 15, 28, 0) 100%);
+  background-image: radial-gradient(
+    62.37% 62.37% at 50% 50%,
+    rgba(8, 52, 1164, 0.2) 21.07%,
+    rgba(7, 15, 28, 0) 100%
+  );
   filter: blur(50px);
   opacity: 0.6;
   z-index: -100;
